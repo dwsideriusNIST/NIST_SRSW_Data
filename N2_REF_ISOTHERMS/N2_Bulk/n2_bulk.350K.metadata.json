@@ -1,0 +1,32 @@
+{
+    "TMMC_data": {
+        "contents": {
+            "N": "number of n2 particles",
+            "U(N)": "average potential energy of the N-particle macrostate",
+            "lnPi(N)": "particle number probability distribution"
+        },
+        "energy_units": "KiloJ-PER-MOL",
+        "file": "bulk_n2.350K.r1.csv"
+    },
+    "beta": 0.34363531965803534,
+    "beta_units": "MOL-PER-KiloJ",
+    "cell": [
+        30.0,
+        30.0,
+        30.0
+    ],
+    "cell_units": "ANG",
+    "ewald_parameters": {
+        "alpha": 0.26505830360350674,
+        "alpha_units": "PER-ANG",
+        "kvectors": [
+            8,
+            8,
+            8
+        ]
+    },
+    "lnz": -3.5,
+    "temperature": 349.9999801022015,
+    "temperature_units": "K",
+    "z_units": "PER-ANG3"
+}
