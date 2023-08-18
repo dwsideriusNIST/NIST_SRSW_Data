@@ -6,7 +6,7 @@
             "lnPi(N)": "particle number probability distribution"
         },
         "energy_units": "KiloJ-PER-MOL",
-        "file": "co2_zif8.300K.rX.csv"
+        "file": "co2_cubtc.300K.rX.csv"
     },
     "beta": 0.4009078501424201,
     "beta_units": "MOL-PER-KiloJ",
