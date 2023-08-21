@@ -1,0 +1,24 @@
+{
+    "TMMC_data": {
+        "contents": {
+            "N": "number of ch4 particles",
+            "U(N)": "average potential energy of the N-particle macrostate",
+            "lnPi(N)": "particle number probability distribution"
+        },
+        "energy_units": "KiloJ-PER-MOL",
+        "file": "ch4_cubtc.300K.rX.csv"
+    },
+    "beta": 0.4009078501424201,
+    "beta_units": "MOL-PER-KiloJ",
+    "cell": [
+        26.343,
+        26.343,
+        26.343
+    ],
+    "cell_units": "ANG",
+    "ewald_parameters": "Not applicable (no charges)",
+    "lnz": -3.5,
+    "temperature": 300.0,
+    "temperature_units": "K",
+    "z_units": "PER-ANG3"
+}

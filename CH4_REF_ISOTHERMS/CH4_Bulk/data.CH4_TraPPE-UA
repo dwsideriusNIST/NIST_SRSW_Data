@@ -1,0 +1,21 @@
+# LAMMPS-inspired data file
+# TraPPE-UA Methane
+#
+#   (CH4)  -> single site, no charge
+#
+
+1 sites
+
+1 site types
+
+Site Labels
+
+0 CH4
+
+Site Properties
+
+0 sigma 3.730 epsilon 1.2305404674866796 cutoff 12.
+
+Sites
+
+0 0 0.0 0.0 0.0
