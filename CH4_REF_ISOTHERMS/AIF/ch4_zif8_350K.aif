@@ -9,7 +9,7 @@ _units_pressure BAR
 _units_loading MOL_PER_KG
 _units_qst KiloJ_PER_MOL
 _exptl_isotherm_type absolute
-_exptl_adsorptive_name 'Nitrogen'
+_exptl_adsorptive_name 'Methane'
 _forcefield_adsorptive 'TraPPE CH4; 12ang linear-force shift'
 _forcefield_adsnt 'see adsorbent file'
 
