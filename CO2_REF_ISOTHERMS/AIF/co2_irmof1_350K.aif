@@ -6,8 +6,8 @@ _adsnt_filename 'data.IRMOF1_mCBAC_rep111'
 _units_temperature K
 _units_fugacity BAR
 _units_pressure BAR
-_units_loading MOL_PER_KG
-_units_qst KiloJ_PER_MOL
+_units_loading MOL-PER-KiloGM
+_units_qst KiloJ-PER-MOL
 _exptl_isotherm_type absolute
 _exptl_adsorptive_name 'Carbon Dioxide'
 _forcefield_adsorptive 'TraPPE CO2; 12ang linear-force shift'
