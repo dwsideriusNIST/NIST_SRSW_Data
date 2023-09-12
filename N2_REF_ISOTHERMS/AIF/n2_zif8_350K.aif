@@ -2,7 +2,7 @@ data_N2_ZIF8_350K
 _exptl_date
 _exptl_temperature 350
 _adsnt_material_id ZIF-8
-_adsnt_filename 'data.ZIF8_Snurr_rep222'
+_simltn_adsorbent_filename 'data.ZIF8_Snurr_rep222'
 _units_temperature K
 _units_fugacity BAR
 _units_pressure BAR
@@ -10,8 +10,8 @@ _units_loading MOL-PER-KiloGM
 _units_qst KiloJ-PER-MOL
 _exptl_isotherm_type absolute
 _exptl_adsorptive_name 'Nitrogen'
-_forcefield_adsorptive 'TraPPE N2; 12ang linear-force shift'
-_forcefield_adsnt 'see adsorbent file'
+_simltn_forcefield_adsorptive 'TraPPE N2; 12ang linear-force shift'
+_simltn_forcefield_adsorbent 'see adsorbent file'
 
 loop_
 _adsorp_fugacity

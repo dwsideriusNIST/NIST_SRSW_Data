@@ -2,7 +2,7 @@ data_CH4_CuBTC_350K
 _exptl_date 
 _exptl_temperature 350
 _adsnt_material_id CuBTC
-_adsnt_filename 'data.CuBTC_CaleroIV_rep111'
+_simltn_adsorbent_filename 'data.CuBTC_CaleroIV_rep111'
 _units_temperature K
 _units_fugacity BAR
 _units_pressure BAR
@@ -10,8 +10,8 @@ _units_loading MOL-PER-KiloGM
 _units_qst KiloJ-PER-MOL
 _exptl_isotherm_type absolute
 _exptl_adsorptive_name 'Methane'
-_forcefield_adsorptive 'TraPPE CH4; 12ang linear-force shift'
-_forcefield_adsnt 'see adsorbent file'
+_simltn_forcefield_adsorptive 'TraPPE CH4; 12ang linear-force shift'
+_simltn_forcefield_adsorbent 'see adsorbent file'
 
 loop_
 _adsorp_fugacity
