@@ -1,0 +1,34 @@
+{
+    "TMMC_data": {
+        "contents": {
+            "N": "number of h2o particles",
+            "U(N)": "average potential energy of the N-particle macrostate",
+            "lnPi(N)": "particle number probability distribution"
+        },
+        "energy_units": "KiloJ-PER-MOL",
+        "file": "h2o_bulk.300K.r1.csv"
+    },
+    "beta": 0.4009078729343745,
+    "beta_units": "MOL-PER-KiloJ",
+    "cell": [
+        30.0,
+        30.0,
+        30.0
+    ],
+    "cell_units": "ANG",
+    "cutoff": 10.0,
+    "ewald_parameters": {
+        "alpha": 0.32079885109097883,
+        "alpha_units": "PER-ANG",
+        "kvectors": [
+            6,
+            6,
+            6
+        ]
+    },
+    "lnz": -15.24,
+    "tail_correction": "linear-force shift",
+    "temperature": 299.9999829447442,
+    "temperature_units": "K",
+    "z_units": "PER-ANG3"
+}
