@@ -1,5 +1,5 @@
 data_CH4_CuBTC_350K
-_exptl_date 
+_exptl_date 2023-08-08
 _exptl_temperature 350
 _adsnt_material_id CuBTC
 _simltn_adsorbent_filename 'data.CuBTC_CaleroIV_rep111'
