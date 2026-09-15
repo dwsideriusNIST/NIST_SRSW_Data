@@ -1,0 +1,68 @@
+# Binary CO2/N2 mixture adsorption
+
+data_TraPPE_co2_n2_ZIF8
+
+    _audit_aif_version                "1.0.0"
+    _audit_creation_date              "2026-09-14"
+
+    _exptl_operator                   "Daniel W. Siderius"
+    _exptl_temperature                300.0
+    _exptl_method                     "simulation"
+    _exptl_isotherm_type              "absolute"
+
+    _simltn_code                      "FEASST v0.21.1-9"
+    _simltn_size                      "2x2x2 unit cells"
+    _simltn_forcefield_adsorptive     "TraPPE-small"
+    _simltn_forcefield_adsorbent      "DREIDING/UFF + REPEAT: 10.1021/jp410758t"
+    _simltn_sampling                  "Flat-histogram Grand Canonical Monte Carlo"
+    _simltn_lot                       "classical"
+    _simltn_cutoff                    "12 ANG; cut potential, no tail correction"
+
+    _adsnt_material_name              "ZIF-8"
+    _adsnt_sample_name                "data.ZIF8_Snurr_rep222"
+    _adsnt_structure_csd_refcode      "VELVOY"
+    _adsnt_molar_mass                 {cell_mass}
+
+    loop_
+        _adsorptive_component_index
+        _adsorptive_component_name
+        _adsorptive_component_inchi
+        1  "N2"   "IJGRMHOSHXDMSA-UHFFFAOYSA-N"
+        2  "CO2"  "CURLTUGMZLYLDI-UHFFFAOYSA-N"
+
+    _units_temperature                "K"
+    _units_pressure                   "BAR"
+    _units_mass                       "GM"
+    _units_sorbed_amount              "Molecules per 8 unit cells"
+    _units_composition_type           "mole_fraction"
+
+    loop_
+        _adsorp_index
+        _adsorp_pressure
+        _adsorp_composition_component_1
+        _adsorp_composition_component_2
+        _adsorp_amount_component_1
+        _adsorp_amount_component_1_su
+        _adsorp_amount_component_2
+        _adsorp_amount_component_2_su
+       0  0.100  0.500  0.500  0.20759  0.00176  1.28714  0.00808  
+       1  0.500  0.500  0.500  1.00977  0.01139  6.46490  0.05207  
+       2  1.000  0.500  0.500  1.98014  0.00125  13.17286  0.04064  
+       3  1.500  0.500  0.500  2.85280  0.02713  19.62214  0.23845  
+       4  2.000  0.500  0.500  3.71012  0.08020  26.26088  0.87278  
+       5  2.500  0.500  0.500  4.52992  0.02084  33.14236  0.53416  
+       6  3.000  0.500  0.500  5.30059  0.23462  40.43782  2.24712  
+       7  3.500  0.500  0.500  5.97835  0.12065  47.41746  1.90171  
+       8  4.000  0.500  0.500  6.57057  0.16313  54.02499  1.22110  
+       9  4.500  0.500  0.500  7.06314  0.26525  60.08300  2.96217  
+       10  5.000  0.500  0.500  7.56522  0.16858  66.68902  2.42269  
+       11  5.500  0.500  0.500  7.98330  0.06654  72.53142  0.77770  
+       12  6.000  0.500  0.500  8.25828  0.09831  76.54014  0.98457  
+       13  6.500  0.500  0.500  8.49513  0.10970  80.04513  1.41010  
+       14  7.000  0.500  0.500  8.77073  0.08728  84.32959  1.31064  
+       15  7.500  0.500  0.500  9.08537  0.06284  89.68432  1.42269  
+       16  8.000  0.500  0.500  9.38200  0.05006  95.30491  1.61534  
+       17  8.500  0.500  0.500  9.61979  0.03797  100.30660  1.39977  
+       18  9.000  0.500  0.500  9.79823  0.02939  104.37556  0.93431  
+       19  9.500  0.500  0.500  9.93614  0.03010  107.68980  0.41359  
+       20  10.000  0.500  0.500  10.05145  0.04439  110.58571  0.64454  
